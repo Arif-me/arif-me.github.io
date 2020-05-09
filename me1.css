@@ -15,7 +15,20 @@ body {
     
     font-weight: 400;
     margin-bottom: 30px;
-  }  
+  }
+	table,th,td{
+		border: 1px solid red;
+		text-align: center;
+	}
+	th{
+		background-color: white;
+		color: red;
+	}
+	td{
+		background-color: black;
+		color: white;
+	}
+  
   .jumbotron {
     background-image: url("logo3.jpg");
     background-color: #056d85;
